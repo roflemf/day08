@@ -11,6 +11,8 @@ public class TestClass01 {
 		 - 원하는 값을 얻고자 하는 경우 key를 통해서 얻어온다
 		 - 키의 중복은 허용되지 않으며 value는 중복 가능 
 		 */
+		//아메리카노(key) = 2000(value)
+		//라떼(key) = 2000(value)
 		
 		HashMap<String, String> map = new HashMap<>();
 		map.put("num", "100");
@@ -35,6 +37,7 @@ public class TestClass01 {
 		System.out.println("=== name1 삭제 ===");
 		map.remove("name1"); // 삭제 
 		System.out.println(map);
+		
 	}
 }
 

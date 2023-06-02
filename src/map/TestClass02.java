@@ -9,7 +9,7 @@ public class TestClass02 {
 	public static void main(String[] args) {
 	//	HashMap<String, String> map = new HashMap<>();
 		LinkedHashMap<String, String> map = new LinkedHashMap<>();
-		
+		//     Key(변수)    Value(변수값)
 		map.put("선풍기", " 100만원");
 		map.put("에어컨", " 10만원");
 		map.put("자동차", " 20만원");
@@ -19,8 +19,10 @@ public class TestClass02 {
 		
 		System.out.println(map.keySet()); // key 만 가져옴
 		System.out.println(map.values()); // 벨류값만 가져옴
+		
 		Set<String> key = map.keySet();
 		Iterator<String> it = key.iterator();
+		
 		
 		while (it.hasNext()) {
 			String k = it.next();
